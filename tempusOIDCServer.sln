@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD1E6070-5665-4820-B816-A3A846A82D46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2F6D5FD-25A9-4DF8-A157-B34FBC6BE5A3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "tempusOIDCServer", "src\tempusOIDCServer\tempusOIDCServer.xproj", "{A5010070-450B-4177-8557-57655DBC315F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "tempusAuthAPI", "src\tempusAuthAPI\tempusAuthAPI.xproj", "{1355F1D8-5D7B-4CAA-9B97-596787A6A9FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5010070-450B-4177-8557-57655DBC315F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5010070-450B-4177-8557-57655DBC315F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5010070-450B-4177-8557-57655DBC315F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5010070-450B-4177-8557-57655DBC315F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1355F1D8-5D7B-4CAA-9B97-596787A6A9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1355F1D8-5D7B-4CAA-9B97-596787A6A9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1355F1D8-5D7B-4CAA-9B97-596787A6A9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1355F1D8-5D7B-4CAA-9B97-596787A6A9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5010070-450B-4177-8557-57655DBC315F} = {DD1E6070-5665-4820-B816-A3A846A82D46}
+		{1355F1D8-5D7B-4CAA-9B97-596787A6A9FC} = {DD1E6070-5665-4820-B816-A3A846A82D46}
+	EndGlobalSection
+EndGlobal
